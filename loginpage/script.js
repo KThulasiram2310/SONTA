@@ -8,4 +8,8 @@ registerBtn.addEventListener("click", () => {
 
 loginBtn.addEventListener("click", () => {
   container.classList.remove("active");
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const name = document.getElementById("name").value;
+  
 });
